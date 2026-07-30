@@ -1,16 +1,139 @@
-# React + Vite
+# 🍔 Munch - Full Stack Food Ordering Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack food ordering web application built with React, Node.js, Express, Prisma ORM, and MySQL.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 Frontend: https://munch-app-five.vercel.app
 
-## React Compiler
+🔗 Backend API: https://munch-app-backend.onrender.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+https://github.com/Amit01verma/Munch-App
+
+---
+
+# ✨ Features
+
+- User Registration & Login
+- JWT Authentication
+- Browse Food Categories
+- Search Food Items
+- Add to Cart
+- Update Cart Quantity
+- Place Orders
+- Responsive UI
+- Cloud Database
+- Fully Deployed Application
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Axios
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- Prisma ORM
+- JWT Authentication
+- Bcrypt
+
+### Database
+- MySQL (Aiven Cloud)
+
+### Deployment
+- Frontend: Vercel
+- Backend: Render
+- Database: Aiven Cloud
+
+---
+
+# 📁 Project Structure
+
+```
+Munch-App
+│
+├── client
+│   ├── src
+│   ├── public
+│   └── package.json
+│
+├── server
+│   ├── controllers
+│   ├── routes
+│   ├── prisma
+│   ├── middleware
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Amit01verma/Munch-App.git
+```
+
+## Install Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+## Install Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+---
+
+# 🔐 Environment Variables
+
+Create a `.env` file inside the **server** folder.
+
+```env
+DATABASE_URL=your_database_url
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+<img width="100%" src="https://via.placeholder.com/1200x650?text=Munch+Home+Page">
+
+---
+
+# 👨‍💻 Author
+
+**Amit Kumar**
+
+GitHub:
+https://github.com/Amit01verma
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving this repository a ⭐.
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
