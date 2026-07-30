@@ -115,14 +115,6 @@ PORT=5000
 
 ---
 
-# 📸 Screenshots
-
-## Home Page
-
-<img width="100%" src="https://via.placeholder.com/1200x650?text=Munch+Home+Page">
-
----
-
 # 👨‍💻 Author
 
 **Amit Kumar**
@@ -135,5 +127,3 @@ https://github.com/Amit01verma
 # ⭐ If you like this project
 
 Please consider giving this repository a ⭐.
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
